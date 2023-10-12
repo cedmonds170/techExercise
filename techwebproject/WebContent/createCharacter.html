@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:white;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Create Character </h1>
+</header>
+
+<section>
+	<h1>Character Details</h1>
+	
+	<form action="SimpleInsertHB" method="POST">
+	
+		Name: <input type="text" name="name"> <br />
+		Level: <input type="text" name="level"> <br />
+		Class: <input type="text" name="job"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+</footer>
+<center>
+<nav>
+	<a href=/techwebproject/MyServlet>Character list</a> <br>
+</nav>	
+</center>
+</body>
+</html>
